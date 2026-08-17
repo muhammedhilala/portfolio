@@ -268,6 +268,10 @@
             flex-wrap: wrap;
             gap: 12px;
         }
+.about-me-heading {
+  overflow-wrap: break-word;
+  word-break: break-all; /* Use this if it's still overflowing */
+}
 
         .skill-tag {
             background: rgba(56, 189, 248, 0.1);
@@ -409,7 +413,7 @@
         </header>
 
         <section>
-            <h2>System.out.println("About Me")</h2>
+            <h2 class="about-me-heading">System.out.println("About Me")</h2>
             <p>Engineer with 6+ years of experience designing scalable enterprise web platforms and building applied AI workflows. Specialised in full-stack architecture, agentic AI integrations (RAG, LLMs), and high-performance frontend systems for the healthcare, cybersecurity, and e-learning domains.</p>
         </section>
 
